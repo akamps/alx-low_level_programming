@@ -9,7 +9,7 @@ int main(void)
 	
 	for (l = 'a'; l <= 'z'; l++)
 	{
-		
+		l = tolower(l);
 		putchar(l);
 	}
 	putchar('\n');
