@@ -8,7 +8,7 @@
 int main(void)
 {
 	char x;
-	while (x<='z'){putchar(n);x++}
+	while (x<='z'){putchar(x);x++}
 	putchar("\n")
 	return(0);
 }
