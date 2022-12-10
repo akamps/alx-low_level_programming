@@ -7,12 +7,8 @@
 */
 int main(void)
 {
-	int letter;
-	for (letter = 'a'; letter <= 'z'; letter++)
-	{
-		letter = tolower(letter);
-		putchar(letter);
-	}
-	putchar('\n');
-	return (0);
+	char x;
+	while (x<='z'){putchar(n);x++}
+	putchar("\n")
+	return(0);
 }
