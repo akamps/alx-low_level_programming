@@ -6,8 +6,11 @@
 *Return: return 0
 */
 int main(void)
-{int l;
+{ 
+	int l;
 	for (l = 'a'; l <= 'z'; l++)
-	{putchar(l);}
-	putchar('\n');
-	return (0);}
+	{putchar(l); 
+	}
+	putchar('\n'); 
+	return (0); 
+}
